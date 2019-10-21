@@ -212,7 +212,7 @@ namespace Proyecto1JavierMorales1210219 {
 			this->groupBox1->Controls->Add(this->encolar_txt);
 			this->groupBox1->Location = System::Drawing::Point(32, 16);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(10, 17);
+			this->groupBox1->Size = System::Drawing::Size(10, 10);
 			this->groupBox1->TabIndex = 5;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"Cola";
@@ -613,9 +613,8 @@ namespace Proyecto1JavierMorales1210219 {
 			this->MOSTRAR_PRECIO_1_TXT->ForeColor = System::Drawing::Color::Moccasin;
 			this->MOSTRAR_PRECIO_1_TXT->Location = System::Drawing::Point(535, 301);
 			this->MOSTRAR_PRECIO_1_TXT->Name = L"MOSTRAR_PRECIO_1_TXT";
-			this->MOSTRAR_PRECIO_1_TXT->Size = System::Drawing::Size(78, 38);
+			this->MOSTRAR_PRECIO_1_TXT->Size = System::Drawing::Size(0, 38);
 			this->MOSTRAR_PRECIO_1_TXT->TabIndex = 30;
-			this->MOSTRAR_PRECIO_1_TXT->Text = L"EE.EE";
 			this->MOSTRAR_PRECIO_1_TXT->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// MOSTRAR_PRECIO_2_TXT
@@ -627,9 +626,8 @@ namespace Proyecto1JavierMorales1210219 {
 			this->MOSTRAR_PRECIO_2_TXT->ForeColor = System::Drawing::Color::Moccasin;
 			this->MOSTRAR_PRECIO_2_TXT->Location = System::Drawing::Point(535, 386);
 			this->MOSTRAR_PRECIO_2_TXT->Name = L"MOSTRAR_PRECIO_2_TXT";
-			this->MOSTRAR_PRECIO_2_TXT->Size = System::Drawing::Size(78, 38);
+			this->MOSTRAR_PRECIO_2_TXT->Size = System::Drawing::Size(0, 38);
 			this->MOSTRAR_PRECIO_2_TXT->TabIndex = 31;
-			this->MOSTRAR_PRECIO_2_TXT->Text = L"EE.EE";
 			this->MOSTRAR_PRECIO_2_TXT->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// MOSTRAR_PRECIO_3_TXT
@@ -641,9 +639,8 @@ namespace Proyecto1JavierMorales1210219 {
 			this->MOSTRAR_PRECIO_3_TXT->ForeColor = System::Drawing::Color::Moccasin;
 			this->MOSTRAR_PRECIO_3_TXT->Location = System::Drawing::Point(535, 467);
 			this->MOSTRAR_PRECIO_3_TXT->Name = L"MOSTRAR_PRECIO_3_TXT";
-			this->MOSTRAR_PRECIO_3_TXT->Size = System::Drawing::Size(78, 38);
+			this->MOSTRAR_PRECIO_3_TXT->Size = System::Drawing::Size(0, 38);
 			this->MOSTRAR_PRECIO_3_TXT->TabIndex = 32;
-			this->MOSTRAR_PRECIO_3_TXT->Text = L"EE.EE";
 			this->MOSTRAR_PRECIO_3_TXT->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// label1
@@ -853,7 +850,7 @@ private: System::Void Apilar_btn_Click(System::Object^ sender, System::EventArgs
 }
 private: System::Void Mostrar_pila_btn_Click(System::Object^ sender, System::EventArgs^ e) 
 {
-	//nO USADO
+	//NO USADO
 	mostrar_pila_txt->Text = Pila1->ObtenerPila(Pila1);
 }
 private: System::Void Desapilar_btn_Click(System::Object^ sender, System::EventArgs^ e) 
@@ -1494,7 +1491,7 @@ private: System::Void Button11_Click(System::Object^ sender, System::EventArgs^ 
 			Cola1->Encolar(Regresar);
 		}
 	}
-	MOSTRAR_PRECIO_1_TXT->Text = "EE.EE";
+	MOSTRAR_PRECIO_1_TXT->Text = "";
 	mostrar_pila_txt->Text = Pila1->ObtenerPila(Pila1);
 	mostrar_cola_txt->Text = Cola1->ObtenerCola(Cola1);
 }
@@ -1517,7 +1514,7 @@ private: System::Void Button12_Click(System::Object^ sender, System::EventArgs^ 
 			Cola1->Encolar(Regresar);
 		}
 	}
-	MOSTRAR_PRECIO_2_TXT->Text = "EE.EE";
+	MOSTRAR_PRECIO_2_TXT->Text = "";
 	mostrar_pila_txt->Text = Pila1->ObtenerPila(Pila1);
 	mostrar_cola_txt->Text = Cola1->ObtenerCola(Cola1);
 }
@@ -1540,7 +1537,7 @@ private: System::Void Button13_Click(System::Object^ sender, System::EventArgs^ 
 			Cola1->Encolar(Regresar);
 		}
 	}
-	MOSTRAR_PRECIO_3_TXT->Text = "EE.EE";
+	MOSTRAR_PRECIO_3_TXT->Text = "";
 	mostrar_pila_txt->Text = Pila1->ObtenerPila(Pila1);
 	mostrar_cola_txt->Text = Cola1->ObtenerCola(Cola1);
 }

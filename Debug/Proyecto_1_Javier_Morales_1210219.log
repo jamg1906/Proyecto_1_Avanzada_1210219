@@ -1,13 +1,1 @@
-﻿  Cola.cpp
-  ListaDobleEnlazada.cpp
-  MyForm.cpp
-C:\Users\Javier\source\repos\Proyecto_1_Javier_Morales_1210219\MyForm.h(921,8): warning C4101: 'estaencola': unreferenced local variable
-C:\Users\Javier\source\repos\Proyecto_1_Javier_Morales_1210219\MyForm.h(1147,8): warning C4101: 'estaencola': unreferenced local variable
-C:\Users\Javier\source\repos\Proyecto_1_Javier_Morales_1210219\MyForm.h(1329,8): warning C4101: 'estaencola': unreferenced local variable
-C:\Users\Javier\source\repos\Proyecto_1_Javier_Morales_1210219\MyForm.h(1485,8): warning C4101: 'estaencola': unreferenced local variable
-C:\Users\Javier\source\repos\Proyecto_1_Javier_Morales_1210219\MyForm.h(1508,8): warning C4101: 'estaencola': unreferenced local variable
-  Pila.cpp
-  Generating Code...
-C:\Users\Javier\source\repos\Proyecto_1_Javier_Morales_1210219\MyForm.h(1531,8): warning C4101: 'estaencola': unreferenced local variable
-  Cola.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Proyecto_1_Javier_Morales_1210219.vcxproj -> C:\Users\Javier\source\repos\Proyecto_1_Javier_Morales_1210219\Debug\Proyecto_1_Javier_Morales_1210219.exe
+﻿  Proyecto_1_Javier_Morales_1210219.vcxproj -> C:\Users\Javier\Desktop\pruebaproyecto\Proyecto_1_Avanzada_1210219\Debug\Proyecto_1_Javier_Morales_1210219.exe
